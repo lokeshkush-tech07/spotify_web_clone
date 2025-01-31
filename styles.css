@@ -1,7 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    height: 100%;
-    --fallback-fonts: Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic ProN, Meiryo, MS Gothic;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+.sidebar{
+    width: 300px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.sidebar_nav{
+    background: #111111;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.sidebar_nav .logo {
+    width: 120px;
+}
+
+.sidebar_nav .logo img {
+    width: 100%;
+}
+.Home{
+    display: flex;
+  align-items: center;
+  gap: 8px;
 }
